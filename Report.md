@@ -1,20 +1,21 @@
 # Fraud-Transaction-Analysis
 This project analyzes transactional data to identify fraud patterns, monitor fraud rate trends, and support risk-based decision-making.
-Business Objectives
 
-Monitor total fraud exposure
+**Business Objectives**
 
-Track fraud rate (%) over time
+- Monitor total fraud exposure
 
-Identify high-risk transaction types
+- Track fraud rate (%) over time
 
-Analyze fraud distribution by location
+- Identify high-risk transaction types
 
-Evaluate device usage patterns
+- Analyze fraud distribution by location
 
-Support data-driven fraud mitigation strategies
+- Evaluate device usage patterns
 
-📊 Key KPIs
+- Support data-driven fraud mitigation strategies
+
+**Key KPIs**
 
 Total Transaction Amount: 118.6M
 
@@ -26,52 +27,53 @@ Fraud Rate: 4.9%
 
 Average Transaction Amount: 3.0K
 
-📈 Dashboard Features
-🔹 Fraud Summary View
+**Dashboard Features**
 
-Fraudulent transactions by transaction type
+**Fraud Summary View**
 
-Fraud trend analysis over time
+- Fraudulent transactions by transaction type
 
-Fraud vs non-fraud distribution
+- Fraud trend analysis over time
 
-Location-based fraud analysis
+- Fraud vs non-fraud distribution
 
-Interactive filters (Transaction Type, Payment Method, Status)
+- Location-based fraud analysis
 
-🔹 User & Device Analysis
+- Interactive filters (Transaction Type, Payment Method, Status)
 
-Transaction count by device used
+**User & Device Analysis**
 
-Fraud by previous fraud history
+- Transaction count by device used
 
-Fraud by payment method
+- Fraud by previous fraud history
 
-Detailed transaction-level log
+- Fraud by payment method
 
-Drill-down capability for deeper investigation
+- Detailed transaction-level log
 
-🧠 Key Insights
+- Drill-down capability for deeper investigation
 
-Fraud rate stands at approximately 4.9%, indicating measurable risk exposure.
+**Key Insights**
 
-Certain transaction types show significantly higher fraud concentration.
+- Fraud rate stands at approximately 4.9%, indicating measurable risk exposure.
 
-Fraud distribution varies by location, suggesting potential geographic risk clusters.
+- Certain transaction types show significantly higher fraud concentration.
 
-Device usage patterns highlight possible device-specific fraud behavior.
+- Fraud distribution varies by location, suggesting potential geographic risk clusters.
 
-Users with previous fraud history demonstrate higher likelihood of repeat fraud.
+- Device usage patterns highlight possible device-specific fraud behavior.
 
-🛠️ Tools & Technologies
+- Users with previous fraud history demonstrate higher likelihood of repeat fraud.
 
-Looker Studio – Dashboard development & visualization
+**Tools & Technologies**
 
-Google Sheets / CSV (Data Source)
+- Looker Studio – Dashboard development & visualization
 
-Calculated Fields – KPI & fraud metric computation
+- Google Sheets / CSV (Data Source)
 
-🧮 Sample Calculated Fields (Looker Studio)
+- Calculated Fields – KPI & fraud metric computation
+
+ **Sample Calculated Fields (Looker Studio)**
 Total Transactions = COUNT(Transaction ID)
 
 Total Fraud = COUNT(CASE WHEN Status = "Fraud" THEN Transaction ID END)
@@ -79,76 +81,75 @@ Total Fraud = COUNT(CASE WHEN Status = "Fraud" THEN Transaction ID END)
 Fraud Rate (%) = Total Fraud / Total Transactions
 
 Total Transaction Amount = SUM(Transaction Amount)
-🏗️ Data Structure
+
+**Data Structure**
 
 The dashboard is built on a structured transactional dataset containing:
 
-Transaction ID
+- Transaction ID
 
-User ID
+- User ID
 
-Location
+- Location
 
-Device Used
+- Device Used
 
-Transaction Type
+- Transaction Type
 
-Payment Method
+- Payment Method
 
-Status (Fraud / Not Fraud)
+- Status (Fraud / Not Fraud)
 
-Transaction Amount
+- Transaction Amount
 
-Timestamp
+- Timestamp
 
-📌 Business Value
+**Business Value**
 
 This dashboard enables:
 
-Faster fraud detection
+- Faster fraud detection
 
-Improved monitoring of high-risk segments
+- Improved monitoring of high-risk segments
 
-Better resource allocation for investigation teams
+- Better resource allocation for investigation teams
 
-Strategic fraud prevention planning
+- Strategic fraud prevention planning
 
 It can be adapted for fintech, digital banking, payment platforms, and e-commerce businesses.
 
-📷 Dashboard Preview
+**Dashboard Preview**
 
 (Insert your dashboard screenshots here)
 
-📷 Dashboard Preview
-
 (Insert your dashboard screenshots here)
 
-Recommendations
+**Recommendations**
 
 Based on the analysis, the following actions are recommended:
 
-Implement Risk-Based Monitoring
-Prioritize monitoring for high-risk transaction types and locations with elevated fraud rates.
+**Implement Risk-Based Monitoring**
+- Prioritize monitoring for high-risk transaction types and locations with elevated fraud rates.
 
-Device-Level Risk Flagging
-Introduce enhanced verification or step-up authentication for devices associated with repeated fraud activity.
+**Device-Level Risk Flagging**
+- Introduce enhanced verification or step-up authentication for devices associated with repeated fraud activity.
 
-Customer Risk Scoring
+**Customer Risk Scoring**
 Develop a simple risk scoring framework incorporating:
 
-Previous fraud history
+- Previous fraud history
 
-Transaction frequency
+- Transaction frequency
 
-Device usage patterns
+- Device usage patterns
 
-Location risk exposure
+- Location risk exposure
 
-Time-Based Fraud Monitoring
-Investigate peak fraud time windows and introduce targeted monitoring during high-risk periods.
+**Time-Based Fraud Monitoring**
+- Investigate peak fraud time windows and introduce targeted monitoring during high-risk periods.
 
-Payment Method Controls
-Apply stricter verification measures for payment methods with higher fraud concentration.
+**Payment Method Controls**
+- Apply stricter verification measures for payment methods with higher fraud concentration.
 
-Continuous KPI Tracking
-Maintain ongoing monitoring of fraud rate trends to quickly detect spikes or unusual patterns.
+**Continuous KPI Tracking**
+- Maintain ongoing monitoring of fraud rate trends to quickly detect spikes or unusual patterns.

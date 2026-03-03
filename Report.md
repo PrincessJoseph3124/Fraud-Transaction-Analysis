@@ -31,6 +31,8 @@ Average Transaction Amount: 3.0K
 
 **Fraud Summary View**
 
+
+
 - Fraudulent transactions by transaction type
 
 - Fraud trend analysis over time

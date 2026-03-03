@@ -15,6 +15,10 @@ This project analyzes transactional data to identify fraud patterns, monitor fra
 
 - Support data-driven fraud mitigation strategies
 
+**Dataset Overview**
+
+![](images/Fraud_Dataset_Overview.png)
+
 **Key KPIs**
 
 Total Transaction Amount: 118.6M
@@ -126,10 +130,6 @@ This dashboard enables:
 - Strategic fraud prevention planning
 
 It can be adapted for fintech, digital banking, payment platforms, and e-commerce businesses.
-
-**Dataset Overview**
-
-![](images/Fraud_Dataset_Overview.png)
 
 **Recommendations**
 

@@ -31,7 +31,7 @@ Average Transaction Amount: 3.0K
 
 **Fraud Summary View**
 
-
+![](images/Fraud_dashboard_1.jpeg)
 
 - Fraudulent transactions by transaction type
 
@@ -44,6 +44,8 @@ Average Transaction Amount: 3.0K
 - Interactive filters (Transaction Type, Payment Method, Status)
 
 **User & Device Analysis**
+
+![](images/Fraud_dashboard_2.jpeg)
 
 - Transaction count by device used
 
@@ -71,11 +73,16 @@ Average Transaction Amount: 3.0K
 
 - Looker Studio – Dashboard development & visualization
 
+![](images/Fraud_Data_Import.png)
+
+![](images/Fraud__Data_Import_2.png)
+
 - Google Sheets / CSV (Data Source)
 
 - Calculated Fields – KPI & fraud metric computation
 
  **Sample Calculated Fields (Looker Studio)**
+ 
 Total Transactions = COUNT(Transaction ID)
 
 Total Fraud = COUNT(CASE WHEN Status = "Fraud" THEN Transaction ID END)
@@ -120,11 +127,9 @@ This dashboard enables:
 
 It can be adapted for fintech, digital banking, payment platforms, and e-commerce businesses.
 
-**Dashboard Preview**
+**Dataset Overview**
 
-(Insert your dashboard screenshots here)
-
-(Insert your dashboard screenshots here)
+![](images/Fraud_Dataset_Overview.png)
 
 **Recommendations**
 

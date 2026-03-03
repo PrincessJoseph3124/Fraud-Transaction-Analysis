@@ -21,15 +21,15 @@ This project analyzes transactional data to identify fraud patterns, monitor fra
 
 **Key KPIs**
 
-Total Transaction Amount: 118.6M
+- Total Transaction Amount: 118.6M
 
-Total Transactions: 39.6K
+- Total Transactions: 39.6K
 
-Total Fraud Cases: 1.9K
+- Total Fraud Cases: 1.9K
 
-Fraud Rate: 4.9%
+- Fraud Rate: 4.9%
 
-Average Transaction Amount: 3.0K
+- Average Transaction Amount: 3.0K
 
 **Dashboard Features**
 
